@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Cadastro de Usuário</title>
+</head>
+<body>
+    <h1>Cadastro de Usuário</h1>
+    <form method="POST" action="/usuarios">
+        <label for="nome">Nome:</label>
+        <input type="text" name="nome" required>
+        <label for="sobrenome">Sobrenome:</label>
+        <input type="text" name="sobrenome" required>
+        <label for="idade">Idade:</label>
+        <input type="number" name="idade" required>
+        <label for="cpf">CPF:</label>
+        <input type="text" name="cpf" required>
+        <button type="submit">Cadastrar</button>
+    </form>
+</body>
+</html>

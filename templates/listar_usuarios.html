@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Listagem de Usuários</title>
+</head>
+<body>
+    <h1>Listagem de Usuários</h1>
+    <ul>
+        {% for usuario in usuarios %}
+            <li>ID: {{ usuario['id'] }}, Nome: {{ usuario['nome'] }}, Sobrenome: {{ usuario['sobrenome'] }}, Idade: {{ usuario['idade'] }}, CPF: {{ usuario['cpf'] }}</li>
+        {% endfor %}
+    </ul>
+</body>
+</html>

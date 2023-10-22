@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Exclusão de Usuário</title>
+</head>
+<body>
+    <h1>Exclusão de Usuário</h1>
+    <p>Tem certeza de que deseja excluir o usuário ID: {{ usuario['id'] }}, Nome: {{ usuario['nome'] }}?</p>
+    <form method="POST" action="/usuarios/{{ usuario['id'] }}">
+        <button type="submit">Confirmar Exclusão</button>
+    </form>
+</body>
+</html>
