@@ -55,7 +55,7 @@ python app.py
 
 🚀templates/: Contém os modelos HTML para as páginas do aplicativo.
 
-🚀static/: Contém arquivos estáticos, como folhas de estilo CSS, se necessário.
+
 
 ### Contribuição 💬
 Sinta-se à vontade para contribuir para este projeto ou relatar problemas encontrados. Basta criar uma "issue" no repositório ou enviar um "pull request" com suas alterações.
